@@ -11,7 +11,7 @@ jobs:
 
       - name: Increment Git Tag
         id: increment-git-tag
-        uses: calsaviour/increment-git-tag@v1
+        uses: calsaviour/github-action-increament-git-tag@v1
         with:
           version-type: patch
 
